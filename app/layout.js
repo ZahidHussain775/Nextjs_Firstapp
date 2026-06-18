@@ -1,9 +1,12 @@
+import './globals.css';
+
 export default function RootLayout
 ({children}) {
   return (
     <html>
+      
       <body>
-        <h1>Hello</h1>
+        <h1>Hello layout</h1>
         {children}
       </body>
     </html> 
