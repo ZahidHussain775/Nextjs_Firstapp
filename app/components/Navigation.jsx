@@ -4,9 +4,9 @@ export default function Navigation() {
 
     return (
         <header className="grid grid-cols-2">
-            <div className="">Mir</div>
+            <div className="">Mir LOGO</div>
            <nav>
-            <ul>
+            <ul className="flex gap-4">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
                 <li><Link href="/service">Services</Link></li>
