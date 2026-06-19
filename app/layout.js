@@ -1,4 +1,5 @@
 import './globals.css';
+import Navigation from './Navigation';
 
 export default function RootLayout
 ({children}) {
@@ -6,7 +7,7 @@ export default function RootLayout
     <html>
       
       <body>
-        <h1>Hello layout</h1>
+        <Navigation />
         {children}
       </body>
     </html> 
